@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color:rgb(218, 69, 10);
+        }
+        h1{
+            margin-top: 200px;
+        
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 190px 190px;
+            grid-template-rows: 190px 190px 190px;
+            margin-top:100px;
+            margin-left: 500px;
+            margin-right: 390px;
+            margin-bottom: 200px;
+            grid-gap:10px;
+            
+            border: 5px dashed rgb(196, 247, 13);
+        
+            padding:20px;
+        }
+       
+        #a{
+            border:2px solid rgb(233, 48, 2);
+            padding:20px;
+            justify-content:center;
+            align-items:center;
+            background-color: rgb(240, 140, 82);
+            grid-column:span 2;
+        }
+
+        #b{
+            border:2px solid rgb(73, 25, 25);
+            padding:20px;
+            justify-content:center;
+            align-items:center;
+            background-color: rgb(240, 140, 82);
+        }
+
+        #c{
+            border:2px solid rgb(73, 25, 25);
+            padding:20px;
+            justify-content:center;
+            align-items:center;
+            background-color: rgb(240, 146, 82);
+            grid-row:span 2;
+        }
+
+        #d{
+            border:2px solid rgb(73, 25, 25);
+            padding:20px;
+            justify-content:center;
+            align-items:center;
+            background-color: rgb(240, 140, 82);
+            grid-row:span 2;
+        }
+
+        #e{
+            border:2px solid rgb(73, 25, 25);
+            padding:20px;
+            justify-content:center;
+            align-items:center;
+            background-color: rgb(240, 140, 82);
+            
+        }
+
+        #f{
+            border:2px solid rgb(73, 25, 25);
+            padding:20px;
+            justify-content:center;
+            align-items:center;
+            background-color: rgb(240, 140, 82);
+            grid-column:span 2;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <center><h1 style="color:orange">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NARUTO</h1></center>
+    <div class="grid">
+    <div id="a"><img src="img/kakashi.jpg" height="150px" width="340px"></div>
+    <div id="b"><img src="img/naruto.webp" height="150px" width="140px"></div>
+    <div id="c"><img src="img/itachi.jpg" height="340px" width="145px"></div>
+    <div id="d"><img src="img/minato.jpg" height="340px" width="145px"></div>
+    <div id="e"><img src="img/obito.jpg" height="150px" width="140px"></div>
+    <div id="f"><img src="img/madara.jpg" height="150px" width="340px"></div>
+    </div>
+</body>
+</html>
